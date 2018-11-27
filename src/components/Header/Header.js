@@ -34,6 +34,11 @@ class Header extends Component {
                   New Referral
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/play" className="nav-link">
+                  Tic Tac Toe
+                </NavLink>
+              </li>
             </ul>
             <form className="form-inline mt-2 mt-md-0">
               <input

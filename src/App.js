@@ -6,6 +6,7 @@ import Main from './components/Main/Main.js';
 import Footer from './components/Footer/Footer.js';
 import NotFound from './components/NotFound/NotFound.js';
 import CreateReferral from './components/CreateReferral/CreateReferral.js';
+import TicTacToe from './components/TicTacToe/TicTacToe.js';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ class App extends Component {
             <Switch>
               <Route path="/" component={Main} exact />
               <Route path="/create" component={CreateReferral} />
+              <Route path="/play" component={TicTacToe} />
               <Route component={NotFound} />
             </Switch>
           </main>
