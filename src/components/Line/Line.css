@@ -1,0 +1,9 @@
+.cardList {
+  padding-inline-start: 0 !important;
+}
+
+.cardList > li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}

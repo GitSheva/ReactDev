@@ -1,0 +1,8 @@
+.linesList {
+  padding-inline-start: 0 !important;
+}
+
+.linesList > li {
+  overflow: hidden;
+  padding: 5px;
+}
