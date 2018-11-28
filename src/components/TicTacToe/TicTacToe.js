@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
+import './TicTacToe.css';
+import Square from '../Square/Square.js';
 
 class TicTacToe extends Component {
     render() {
         return (
+        <div>
             <div>
-                <h4>"Hello TicTacToe"</h4>
-            </div>
+                <Square/><Square/><Square/>
+            </div> 
             <div>
-                <table border="1">
-                    <tr><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td></td></tr> 
-                </table>
+                <Square/><Square/><Square/>
+            </div> 
+            <div>
+                <Square/><Square/><Square/>
             </div>
+        </div>
         );
     }
 }
-
 
 export default TicTacToe;
