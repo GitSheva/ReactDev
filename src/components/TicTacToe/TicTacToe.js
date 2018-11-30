@@ -11,17 +11,13 @@ class TicTacToe extends Component {
         };
     }
 
-    /*renderSquare(i) {
-        return (
-            <Square value={this.state.squares[i]} onClick={() => this.handleClick(i)}/>
-        );
-    }*/
-
     handleClick(i) {
         const squares = this.state.squares.slice();
+        
         if (calculateWinner(squares) || squares[i]) {
             return;
         }
+        
         squares[i] = this.state.xIsNext ? 'X' : 'O';
         this.setState({
             squares: squares,
